@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 import shutil
-from yolov5 import detect
+import yolov5.detect as detect
 from PIL import Image
 
 
